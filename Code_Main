@@ -1,1 +1,8 @@
 import socket
+import getpass
+
+#Uername
+a=getpass.getuser()
+#Ip
+b=socket.gethostbyname(socket.gethostname())
+print(f'Your username = {a} \n Your ip = {b}')
